@@ -1,0 +1,57 @@
+Summary of IAM User Creation and S3 Access Management Task
+
+This task involves creating two IAM users with different levels of S3 access permissions and testing their ability to interact with an S3 bucket.
+
+Step 1: Create IAM Users
+Mike (S3 Full Access):
+
+- Create a user named Mike with both Programmatic and AWS Management Console access.
+- Assign the AmazonS3FullAccess policy to Mike.
+- Save Mike's credentials.
+
+
+Create a user named Sam with both Programmatic and AWS Management Console access.
+
+- Assign the AmazonS3ReadOnlyAccess policy to Sam.
+- Save Sam's credentials.
+
+
+Step 2: Create an S3 Bucket
+
+- Create an S3 bucket (e.g., mike-sam-test-bucket-12345) with a unique name and a chosen region (e.g., us-east-1).
+- Step 3: Test Access for Mike (Full Access)
+- Log in as Mike using the credentials.
+- Navigate to the S3 console and verify Mike can access the bucket.
+- Mike should be able to upload files to the bucket due to Full Access permissions.
+
+
+
+Step 4: Test Access for Sam (Read-Only Access)
+
+- Log in as Sam using the credentials.
+- Navigate to the S3 console and verify Sam can access the bucket.
+- Sam can view and download files, but cannot upload due to Read-Only permissions.
+
+
+
+Step 5: Verify Permissions
+
+- Mike can upload, delete, and view files in the bucket.
+- Sam can only view and download files, unable to upload or modify content in the bucket.
+
+
+Step 6: Clean Up (Optional)
+
+- Delete the S3 bucket if no longer needed.
+- Remove the IAM users (Mike and Sam) from the IAM console.
+
+
+Conclusion:
+
+Mike has full access and can upload files to the S3 bucket.
+Sam has read-only access and can only view and download files, unable to upload any content.
+
+
+
+
+
