@@ -80,7 +80,70 @@ Go to the IAM Console, select the users (Mike and Sam), and delete them.
 
 
 
+<br>
+<br>
 
 
+# --------------------Screenshots-----------------------------------
 
+
+1. *Mike and sam user are created.*
+
+
+![Example Image](screenshots/10.png)
+
+<br>
+<br>
+
+2. *S3 (Simple Storage Service)  Bucket is created.*
+
+![Example Image](screenshots/11.png)
+
+
+<br>
+<br>
+
+
+3. *Login as mike user using there credintials.*
+
+![Example Image](screenshots/12.png)
+
+<br>
+<br>
+
+4.* Files uploded to the S3 Bucket by mike user. As he have full access of S3 Bucket.*
+
+![Example Image](screenshots/13.png)
+
+
+<br>
+<br>
+
+5. *Files uploded to the S3 Bucket Successfully by mike*
+
+![Example Image](screenshots/14.png)
+
+
+<br>
+<br>
+
+6. *Now Login as sam user using there credentials.*
+
+![Example Image](screenshots/15.png)
+
+
+<br>
+<br>
+
+7. *sam user Trying to uplod file in the S3 bucket but unable to uplod because sam  have read only permission of S3 Bucket.*
+
+![Example Image](screenshots/16.png)
+
+
+<br>
+<br>
+
+8. *S3 Bucket of only file which are uploded by mike user.*
+
+![Example Image](screenshots/17.png)
 
